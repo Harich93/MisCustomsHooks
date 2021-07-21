@@ -1,3 +1,3 @@
 # Notas
 
-Este repositorio contiene Mis hooks
+Repositorio para mis customs Hooks
