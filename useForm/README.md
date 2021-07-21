@@ -20,6 +20,15 @@ Hook para manejo de input
         return [ values, handleInputChange, reset ];
     }
     
-Uso:
+Ejemplo:
 
-    const [ values, handleInputChange, reset ] = useForm();
+    const [ values, handleInputChange ] = useForm({
+        name,
+    });
+    
+    <input
+        type='text'
+        name='name'
+        value={name}
+        onChange={ handleInputChange }
+    />
