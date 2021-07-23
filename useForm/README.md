@@ -33,4 +33,3 @@ Ejemplo:
         value={name}
         onChange={ handleInputChange }
     />
-``
