@@ -16,6 +16,7 @@ Cambia el estado para hacer visible u ocultar la password en un input.
 ```
 ## Aplicación en el componente
 
+```jsx
         <div className="form-group">
             <input
                 type={ isView ? "text" : "password"}
@@ -27,6 +28,7 @@ Cambia el estado para hacer visible u ocultar la password en un input.
                 com
                 />
         </div>
+```
 
 ## Estilo CSS 
 
