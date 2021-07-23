@@ -29,6 +29,8 @@ Ejemplo de uso en componente:
         name,
     });
     
+    const { name } = values;
+    
     <input
         type='text'
         name='name'
