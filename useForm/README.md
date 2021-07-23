@@ -22,7 +22,7 @@ Hook para manejo de input
     }
 ````
 
-Ejemplo:
+Ejemplo de uso en componente:
 
 ````js
     const [ values, handleInputChange ] = useForm({
