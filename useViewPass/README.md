@@ -2,6 +2,7 @@
 
 Cambia el estado para hacer visible u ocultar la password en un input.
 
+```js
         const useViewPass = ( initialState = false ) => {
             
             const [isView, setView] = useState( initialState );
@@ -12,7 +13,7 @@ Cambia el estado para hacer visible u ocultar la password en un input.
 
             return [ isView, handleChangeViewPass ]
         }
-
+```
 ## Aplicación en el componente
 
         <div className="form-group">
