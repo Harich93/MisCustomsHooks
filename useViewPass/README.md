@@ -32,6 +32,7 @@ Cambia el estado para hacer visible u ocultar la password en un input.
 
 ## Estilo CSS 
 
+```css
         .pass {
             position: relative;
 
@@ -46,6 +47,8 @@ Cambia el estado para hacer visible u ocultar la password en un input.
         .fas {
             right: 0px;
         }
+
+```
 
 ### Icono
 
