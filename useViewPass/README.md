@@ -52,7 +52,7 @@ Cambia el estado para hacer visible u ocultar la password en un input.
 
 ### Iconos
 
-Extraidos de *font-awasome*.
+Extraidos de [Font-Awasome](https://fontawesome.com/).
 Poner el siguiente código en la cabecera de tu index.html para la instalación.  
 
 ~~~
