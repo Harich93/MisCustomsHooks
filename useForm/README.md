@@ -20,7 +20,6 @@ Hook para manejo de input
 
         return [ values, handleInputChange, reset ];
     }
-``  
 
 Ejemplo:
 
@@ -34,3 +33,4 @@ Ejemplo:
         value={name}
         onChange={ handleInputChange }
     />
+``
