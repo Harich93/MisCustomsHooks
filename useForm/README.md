@@ -2,7 +2,7 @@
 
 Hook para manejo de input
 
-``js
+````js
     const useForm = ( initialState = {} ) => {
 
         const [values, setValues] = useState(initialState);
@@ -20,11 +20,11 @@ Hook para manejo de input
 
         return [ values, handleInputChange, reset ];
     }
-``
+````
 
 Ejemplo:
 
-``js
+````js
     const [ values, handleInputChange ] = useForm({
         name,
     });
@@ -35,4 +35,4 @@ Ejemplo:
         value={name}
         onChange={ handleInputChange }
     />
-``
+````
